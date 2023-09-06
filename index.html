@@ -1,0 +1,33 @@
+<label>
+  in:
+  <select
+          id="input"
+          onchange="handleInputChange(event)"
+          >
+  </select>
+</label>
+
+<br />
+
+<label>
+  gain:
+  <input
+         type="range"
+         min="0"
+         max="1"
+         step="0.1"
+         value="0.2"
+         onchange="handleGainChange(event)"
+         />
+</label>
+
+<br />
+
+<label>
+  out:
+  <select
+          id="output"
+          onchange="handleOutputChange(event)"
+          >
+  </select>
+</label>
